@@ -1,0 +1,43 @@
+
+
+.main{
+    width:100%;
+    height:100vh;
+    background: url(images/Background\ Clouds.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav{
+    background-color: #1F366A !important;
+
+}
+
+.navbar-brand img{
+    width:80px;
+    height: 80px;
+}
+
+nav .nav-link{
+    color: #fff;
+    margin-right:7rem;
+}
+
+.container{
+    height: 100%;
+}
+
+
+
+.days-row{
+    background-color: #4978BE;
+}
+
+.weather-main{
+    background-color: #1F366A;
+}
+
+.fa-umbrella{
+    transform: rotate(45deg);
+}

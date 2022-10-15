@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+
+        <nav class="navbar navbar-expand-lg  px-5">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="images/Weather Logo.png" alt="weather logo">
+                    <span class="ms-2 text-white">Weather</span>                  
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Live Cameras</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Photos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>                      
+                    </ul>
+                  
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <form class=" d-flex mt-5 pt-5 city-form">
+                <input class="form-control me-2" type="search" placeholder="Search City Weather" aria-label="Search" name="city">
+
+                <button class="btn btn-outline-primary text-white" type="submit">Search</button>
+              </form>
+
+              <div>
+                <h1 class="text-white text-center mt-3 city-name"></h1>
+              </div>
+
+              <div class="weather-container mt-5">
+                
+                <div class="row days-row">
+                 
+                </div>
+                <div class="row weather-main text-center text-white">
+                
+                </div>
+              </div>
+        </div>
+
+
+
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
